@@ -24,7 +24,7 @@ def upload():
 
 @app.route("/uploads/shell.py")
 def shell():
-    return "FLAG: NULLCTF{upload_filters_are_a_lie}"
+    return "FLAG: NULLCTF{Upl0oad_F1lters_are_A_1ie}"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
